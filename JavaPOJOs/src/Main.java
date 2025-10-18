@@ -17,6 +17,23 @@ public class Main {
             System.out.println(s);
         }
 
+        for (int i = 1; i <= 5 ; i++) {
+            LPAStudent lpas = new LPAStudent(
+                    "S92300" + i,
+                    switch(i) {
+                        case 1 -> "Jan";
+                        case 2 -> "Dirk";
+                        case 3 -> "Suzie";
+                        case 4 -> "Joann";
+                        case 5 -> "Donald";
+                        default -> "Unknown";
+                    },
+                    "05/11/1985",
+                    "Java masterclass");
+
+            System.out.println(lpas);
+        }
+
 
     }
 }
