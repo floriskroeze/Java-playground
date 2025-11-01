@@ -1,0 +1,2 @@
+Write a method named readIntegers that reads a comma delimited list of numbers from the console and returns  an array of the numbers that were entered
+Write a method called findMin that takes the array as an argument and returns the minimum value found in that array
