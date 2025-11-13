@@ -41,8 +41,4 @@ public class Main {
         System.out.println("2 - to remove any items (comma delimited list)");
         System.out.println("Enter a number for which action you want to do: ");
     }
-
-    public static void optionOne() {
-
-    }
 }
